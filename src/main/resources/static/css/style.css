@@ -9,20 +9,32 @@ html {
 }
 
 body {
-    font: 11pt 'Raleway', sans-serif;
-    color: #111111;
+    font: 12pt 'Calibri', sans-serif;
+    color: #310000;
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), white url(https://source.unsplash.com/DqgMHzeio7g) center center/cover no-repeat;
+    background: linear-gradient(to bottom, rgba(142, 236, 217, 0.87), rgba(255, 255, 255, 0.9)), white url(https://source.unsplash.com/DqgMHzeio7g) center center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main {
-    max-width: 60rem;
-    min-width: 40rem;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
+input, select {
+    width: 300px;
+    height: 25px;
+    margin: 20px;
+}
+
+button {
+    margin-left: 225px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+h1, .error {
+    text-align: center;
 }

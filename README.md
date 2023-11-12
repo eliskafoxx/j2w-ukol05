@@ -23,8 +23,8 @@ a u políček s chybou bude vypsána chybová zpráva.
 1. V metodě controlleru zkontroluj následující podmínky. Pokud nebudou splněné, zařiď, aby se u příslušného políčka vypsala odpovídající chybová zpráva. 
    * věk mezi 9 a 15 roky (včetně) – připomínám kód pro výpočet věku:
      ```java
-     Period period = birthDate.until(LocalDate.now());
-     int vek = period.getYears();
+     //Period period = birthDate.until(LocalDate.now());
+     //int vek = period.getYears();
      ```
 1. Vytvoř stránku pro zobrazení rekapitulace registrace. Můžeš zkopírovat stránku s formulářem a místo `input`ů použít `span`y, případně inputům nastav atribut `readonly`.   
 1. Zkontroluj, zda vše funguje.
